@@ -35,7 +35,7 @@ function tampilkanBarang() {
 
   localDB.forEach((barang, index) => {
     document.getElementById("listBarang").innerHTML += `
-    <div class="card col-12 col-md-6 col-lg-4 mb-3">
+    <div class="card col-12 col-md-6 col-lg-3 mb-3">
         <img class="card-img-top" src="https://images.unsplash.com/photo-1573376670774-4427757f7963?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Box" />
         <div class="card-body">
             <h4 class="card-title">${barang.nama}</h4>
