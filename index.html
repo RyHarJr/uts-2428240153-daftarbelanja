@@ -10,7 +10,6 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="script" href="script.js" />
   </head>
   <body>
     <div class="container my-5 p-5 border border-2 rounded">
@@ -22,7 +21,7 @@
               type="text"
               class="form-control"
               name=""
-              id="namaBarang"
+              id="nama"
               aria-describedby="helpId"
               placeholder=""
             />
@@ -33,7 +32,7 @@
               type="number"
               class="form-control"
               name=""
-              id="jumlahBarang"
+              id="jumlah"
               aria-describedby="helpId"
               placeholder=""
             />
@@ -53,13 +52,13 @@
       </div>
 
       <div class="container my-3 d-flex">
-        <button onclick="submit()" type="button" class="btn btn-primary">
+        <button onclick="tambahBarang()" type="button" class="btn btn-primary">
           Button
         </button>
       </div>
 
       <div class="container">
-        <div class="d-flex row g-3">
+        <div class="d-flex row g-3" id="listBarang">
           <div class="card col-12 col-md-6 col-lg-4">
             <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
             <div class="card-body">
@@ -92,5 +91,6 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
